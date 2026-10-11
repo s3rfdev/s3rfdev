@@ -37,6 +37,9 @@
 
 ---
 
+### 🌟 Featured Open-Source Repositories
+* 🚀 **[ltx25-fast-docker](https://github.com/s3rfdev/ltx25-fast-docker)** — Production Docker container & FastAPI inference microservice for **LTX-Video 2.5 (22B Distilled)**. Delivers **×2.1 faster wall-time inference (35s per 97 frames)** on 24 GB VRAM (RTX 5090 / 4090) via Blackwell-native NVFP4 quantization, Heretic TE, reduced 6+2 sigmas, and resident memory orchestration.
+
 ### 🧠 Generative AI & Video Acceleration
 * **Inference Optimization**: Deep experience tuning distilled diffusion and video transformers. Optimized **LTX-Video 2.5** inference by **×2.1** on RTX 5090 / Blackwell architecture (NVFP4 mixed quantization, Gemma 4 Heretic TE, reduced 6+2 sigmas, resident VRAM scheduling).
 * **Headless Production Pipelines**: Decoupled ComfyUI server clusters with automated REST APIs, WebSocket job trackers, and instant auto-downscaling/upscaling workflows.
