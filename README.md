@@ -1,6 +1,6 @@
 <div align="center">
 
-# Sergei Fomenko ()
+# Sergei Fomenko (`s3rf`)
 ### Senior AI/ML Architect · Full-Stack & Cross-Platform Engineer · Founder of Render Mind
 
 [![Telegram](https://img.shields.io/badge/Telegram-@s3rf__im-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/s3rf_im)
@@ -19,13 +19,28 @@
 
 ## ⚡ Core Engineering Pillars
 
-
+```
+┌───────────────────────────────────────┐   ┌───────────────────────────────────────┐
+│         AI / ML & INFERENCE           │   │      CROSS-PLATFORM & CLIENT APPS     │
+│   PyTorch · NVFP4 · CUDA · TensorRT   │   │   Flutter & Dart (Desktop, Mobile, Web│
+│   LTX-Video 2.5 · Multimodal LLMs     │───│   100+ Production Builds · TDLib / FFI│
+│   Quantization · Low-Latency STT/TTS  │   │   Real-Time Copilots · Clean Arch     │
+└───────────────────────────────────────┘   └───────────────────────────────────────┘
+                    │                                           │
+                    └─────────────────────┬─────────────────────┘
+                                          ▼
+┌───────────────────────────────────────────────────────────────────────────┐
+│                       DISTRIBUTED BACKENDS & MLOPS                        │
+│       FastAPI · Docker · Multi-GPU Clusters (SaladCloud / RunPod)         │
+│           Resident VRAM Orchestration · High-Concurrency WebSockets       │
+└───────────────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
 ### 🌟 Featured Open-Source Projects
 
-* 🚀 **[TellMeMore](https://github.com/s3rfdev/TellMeMore)** — Real-time AI interview co-pilot and floating teleprompter for macOS built with **Flutter & Dart**. Features dual-stream live speech-to-text (Deepgram Nova-3), zero-latency prompt synthesis, screen-share stealth protection (), multi-LLM orchestration (Gemini, Claude, OpenAI), and unit test coverage.
+* 🚀 **[TellMeMore](https://github.com/s3rfdev/TellMeMore)** — Real-time AI interview co-pilot and floating teleprompter for macOS built with **Flutter & Dart**. Features dual-stream live speech-to-text (Deepgram Nova-3), zero-latency prompt synthesis, screen-share stealth protection (`NSWindow.SharingType.none`), multi-LLM orchestration (Gemini, Claude, OpenAI), and unit test coverage.
 * 💬 **[TellMeMore TG](https://github.com/s3rfdev/TellMeMore_TG)** — Cross-platform Telegram client powered by **Flutter + TDLib** with an embedded multi-agent AI copilot for contextual dialogue profiling, manipulation detection, and strategic negotiation assistance.
 * ⚡ **[ltx25-fast-docker](https://github.com/s3rfdev/ltx25-fast-docker)** — Production Docker container & FastAPI inference microservice for **LTX-Video 2.5 (22B Distilled)**. Delivers **×2.1 faster wall-time inference** on 24 GB VRAM (RTX 4090 / 5090) via Blackwell-native NVFP4 quantization, Gemma 4 Heretic TE, reduced 6+2 sigmas, and resident memory orchestration.
 * 🌐 **[tellmemore-chrome](https://github.com/s3rfdev/tellmemore-chrome)** — Universal real-time AI copilot & strategic negotiation assistant WebExtension for browser-based messengers (TypeScript, DOM streaming).
@@ -37,7 +52,7 @@
 
 ### 📱 Cross-Platform Client Engineering (Flutter & Dart)
 * **Production Fleet**: 100+ production builds and releases across desktop (macOS, Windows) and mobile (iOS, Android).
-* **Native & Hardware Interop**: Deep integration with C/C++ libraries via , TDLib bindings, native macOS window APIs (, accessibility APIs, screen capture exclusion), and dual-stream audio capture.
+* **Native & Hardware Interop**: Deep integration with C/C++ libraries via `dart:ffi`, TDLib bindings, native macOS window APIs (`macos_window_utils`, accessibility APIs, screen capture exclusion), and dual-stream audio capture.
 * **Architecture & State**: Clean layered architecture (BLoC, Riverpod, Provider), reactive streaming, WebSocket/SSE state sync, offline SQLite/Isar caches, and thorough unit testing.
 
 ### 🧠 Generative AI & Low-Latency Inference
